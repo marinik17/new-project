@@ -1,0 +1,16 @@
+.btn{
+  background-color: $mainOrange;
+  color:#fff;
+  text-decoration: none;
+  padding: 1.2rem 1.9rem;
+  display: inline-block;
+  border-radius: 100px;
+  &__black{
+    background-color: $mainBlack;
+    color:#fff;
+    text-decoration: none;
+    padding: .75rem 1.2rem;
+    display: inline-block;
+    border-radius: 100px;
+  }
+}
