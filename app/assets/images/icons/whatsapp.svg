@@ -1,46 +1,25 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-<path style="fill:#EDEDED;" d="M0,512l35.31-128C12.359,344.276,0,300.138,0,254.234C0,114.759,114.759,0,255.117,0
-	S512,114.759,512,254.234S395.476,512,255.117,512c-44.138,0-86.51-14.124-124.469-35.31L0,512z"/>
-<path style="fill:#55CD6C;" d="M137.71,430.786l7.945,4.414c32.662,20.303,70.621,32.662,110.345,32.662
-	c115.641,0,211.862-96.221,211.862-213.628S371.641,44.138,255.117,44.138S44.138,137.71,44.138,254.234
-	c0,40.607,11.476,80.331,32.662,113.876l5.297,7.945l-20.303,74.152L137.71,430.786z"/>
-<path style="fill:#FEFEFE;" d="M187.145,135.945l-16.772-0.883c-5.297,0-10.593,1.766-14.124,5.297
-	c-7.945,7.062-21.186,20.303-24.717,37.959c-6.179,26.483,3.531,58.262,26.483,90.041s67.09,82.979,144.772,105.048
-	c24.717,7.062,44.138,2.648,60.028-7.062c12.359-7.945,20.303-20.303,22.952-33.545l2.648-12.359
-	c0.883-3.531-0.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-0.883-10.593,2.648l-22.069,28.248
-	c-1.766,1.766-4.414,2.648-7.062,1.766c-15.007-5.297-65.324-26.483-92.69-79.448c-0.883-2.648-0.883-5.297,0.883-7.062
-	l21.186-23.834c1.766-2.648,2.648-6.179,1.766-8.828l-25.6-57.379C193.324,138.593,190.676,135.945,187.145,135.945"/>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">  <image id="image0" width="50" height="50" x="0" y="0"
+    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA5FBMVEUAAADv7+/s7Ozt7e3s
+7Ozt7e3t7e3t7e3v7+/t7e3v7+/t7e3s7Ozs7Ozt7e3t7e3s7Ozt7e3t7e3s7Ozt7e3t7e3s7Ozt
+7e3v7+/t7e3t7e3R6NW04b2h3a2O2Zx61IyX26S+5MWE1pRez3RVzWxo0XzH5s1x0oPj6+Wg3ayf
+46zT8tmz6L206L7+/v5/2ZGq37SK3Jq04bzp+Oxq036948V11oe+68eD1pNf0HX0+/WV4KON2Jt6
+1Ivo+Ou+68bU8trz+/Wp5rXZ6dze9ePe9eJeznNn0XvJ79Bx04Sp5bX////ym2EUAAAAGnRSTlMA
+IF+Pv9/PfxBvQJ+vYO+QUKCAwPDQsHAw4A/Hs9UAAAABYktHREtpC4VQAAAAB3RJTUUH4gQGERgz
+Z5zZPQAAAppJREFUSMeNlut6mkAQhjHxVBMNIhgFD6TiAU0xjaIStdHaqOn9X1CZ2V1YDkv6/fDh
+GeZ1dmZnh5WkhHI3t/mC7quYL92UpS+VK6F3qOK3bKpyp6foLicEyve6QLeCSNUa8zA63V6/b3Y7
+BrPUKmkEW9PT94EVaNB7ouZSclFF8qYztGIadmhG6cQoAYDGZH3FKEII0xKom4yDeUz6llA9ZB64
+WiExtjI0noCPHOw4VrdvZQrj1Nj+3GfmwWSDV512CdaKvpjOZs8CZgR+pHfy8Eir+8PxNRekE4TJ
+wdMLsf4EwpkJwryyMA9ckAUizjIdGYKn4iNwPlxiWxHCWQvCuL5rga5rQ0xzijheOrIhK8NttGLI
+NB0ZgG8VU2EVXlLiTZCMZWDXNMJ6WdYbIVai7YSaNSRoFpuZcFucrYjADihIsLwdM5GVzYWICd6I
+7APbGpBfQmQfIJvA5mE279mIyufCWkaUDXYzVoxDyNJCZuXFEQ0RlzcfkHlmQY+/OcjFIiv+74lH
+vD/IfEDdlkf/6fge7OwJ+1KG5Z1TGGc29z5oO9CYF3L+c8lT7K2dmBbctvjHvwlDOFaZaQy5ErOB
+qdCJ9BljVocIsg13pQqzVeV6OdR2ERIHYoJ5oeJYUqI9E0Is0pWUecPOMQ1jWClaTq+Hw196FM6n
+IIgk1UVIRLCN+iM39l++IrDAGhvJglwi2oGT2uLn/v8QWOAgFTcTOOOcpNUC1WjHfJqusUsj9ied
+m/q+WpiK6U7I9zuR1H6kxz9hSuxacLIvof9lRz/9ajUk8IzFKde2N3vTfg2uClqLI8qhZ7veTr+P
+qIrES6bW5iP8UbWdBsRuMDCTNSW8osh1NQJo1cSVp1GX47aK0mwApzUUOeWK9A975RVCAgOGYgAA
+ACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0wNC0wNlQxNzoyNDo1MS0wNzowMG0hPSgAAAAldEVYdGRh
+dGU6bW9kaWZ5ADIwMTgtMDQtMDZUMTc6MjQ6NTEtMDc6MDAcfIWUAAAAAElFTkSuQmCC" />
 </svg>

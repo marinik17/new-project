@@ -1,6 +1,9 @@
 hr{
+  z-index: 1;
   max-width: 50px;
   height: 3px;
-  color:$mainBlack;
-  border: 0;
+  background-color:$mainOrange;
+}
+hr.white{
+  background-color: #fff;
 }

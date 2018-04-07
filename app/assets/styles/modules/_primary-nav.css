@@ -1,0 +1,22 @@
+.primary-nav{
+  &__pull-right{
+    float: right;
+  }
+  ul{
+    margin:0;
+    padding: 0;
+  }
+  li{
+    list-style: none;
+    float: left;
+    padding-right: 33px;
+
+  }
+  a{
+    color:#fff;
+    text-decoration: none;
+    display: block;
+    margin: 22px 0;
+  }
+
+}

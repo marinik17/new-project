@@ -455,14 +455,30 @@ body{
   color:#333;
 }
 
+hr{
+  z-index: 1;
+  max-width: 50px;
+  height: 3px;
+  background-color:#ff6600;
+}
+
+hr.white{
+  background-color: #fff;
+}
+
 .large-hero{
-  margin-bottom: 10px solid #1a1a1a;
-  position: relative;
+    z-index: 1;
+    position: relative;
+    border-bottom: 10px solid #1a1a1a;
 }
 
 .large-hero img{
     max-width: 100%;
     height:auto;
+  }
+
+.large-hero__image{
+    display: block;
   }
 
 .large-hero__text-content{
@@ -478,6 +494,7 @@ body{
 .large-hero__title{
   color:#ff6600;
   font-size: 2.5rem;
+  text-shadow:1px 1px #1a1a1a;
 }
 
 @media(min-width: 530px){
@@ -490,6 +507,7 @@ body{
 
 .large-hero__subtitle{
   color:#ff6600;
+  text-shadow:1px 1px #1a1a1a;
 }
 
 @media(min-width: 530px){
@@ -510,7 +528,8 @@ body{
 .large-hero__description{
     font-size: 1.5rem;
     font-weight: 100;
-    margin-top: 100px
+    margin-top: 100px;
+    text-shadow:1px 1px #1a1a1a
 }
   }
 
@@ -539,9 +558,276 @@ hr{
     border-radius: 100px;
   }
 
-hr{
-  max-width: 50px;
-  height: 3px;
-  color:#1a1a1a;
-  border: 0;
+.page-section{
+  padding: 2.5rem 0;
 }
+
+.page-section--orange{
+    background-color: #ff6600;
+    color:#fff;
+  }
+
+.wrapper{
+  padding-left: 18px;
+  padding-right: 18px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-header{
+position:absolute;
+width:100%;
+z-index:2;
+background-color: rgba(0,0,0, .3);
+}
+
+.site-header__btn{
+  float: right;
+  margin:10px;
+}
+
+.site-header__logo{
+  position: absolute;
+  top:-12px;
+
+}
+
+.site-header__logo img{
+    width:150px;
+    height: 150px;
+    @mixins atMedium{
+      width:200px;
+    }
+
+  }
+
+.primary-nav__pull-right{
+    float: right;
+  }
+
+.primary-nav ul{
+    margin:0;
+    padding: 0;
+  }
+
+.primary-nav li{
+    list-style: none;
+    float: left;
+    padding-right: 33px;
+
+  }
+
+.primary-nav a{
+    color:#fff;
+    text-decoration: none;
+    display: block;
+    margin: 22px 0;
+  }
+
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
+Instead edit gulp/templates/sprite */
+
+.icon {
+      background-image: url('/assets/images/sprites/sprite-bccfd0b3.svg');
+      display: block;
+    }
+
+.icon--bootstrap {
+    width: 50px;
+    height: 50px;
+    background-position: 43.47826086956522% 78.26086956521739%;
+  }
+
+.icon--css3 {
+    width: 50px;
+    height: 50px;
+    background-position: 21.73913043478261% 78.26086956521739%;
+  }
+
+.icon--envelope {
+    width: 50px;
+    height: 50px;
+    background-position: 56.52173913043478% 21.73913043478261%;
+  }
+
+.icon--facebook {
+    width: 50px;
+    height: 50px;
+    background-position: 0 56.52173913043478%;
+  }
+
+.icon--git {
+    width: 50px;
+    height: 50px;
+    background-position: 21.73913043478261% 56.52173913043478%;
+  }
+
+.icon--github {
+    width: 50px;
+    height: 50px;
+    background-position: 43.47826086956522% 56.52173913043478%;
+  }
+
+.icon--gulp {
+    width: 50px;
+    height: 50px;
+    background-position: 78.26086956521739% 0;
+  }
+
+.icon--html5 {
+    width: 50px;
+    height: 50px;
+    background-position: 78.26086956521739% 21.73913043478261%;
+  }
+
+.icon--javascript {
+    width: 50px;
+    height: 50px;
+    background-position: 78.26086956521739% 43.47826086956522%;
+  }
+
+.icon--jquery {
+    width: 50px;
+    height: 50px;
+    background-position: 0 78.26086956521739%;
+  }
+
+.icon--linkedin {
+    width: 50px;
+    height: 50px;
+    background-position: 56.52173913043478% 0;
+  }
+
+.icon--logo {
+    width: 130px;
+    height: 130px;
+    background-position: 0 0;
+  }
+
+.icon--message {
+    width: 50px;
+    height: 50px;
+    background-position: 65.21739130434783% 78.26086956521739%;
+  }
+
+.icon--nodejs {
+    width: 50px;
+    height: 50px;
+    background-position: 100% 0;
+  }
+
+.icon--npm {
+    width: 50px;
+    height: 50px;
+    background-position: 100% 21.73913043478261%;
+  }
+
+.icon--php {
+    width: 50px;
+    height: 50px;
+    background-position: 100% 43.47826086956522%;
+  }
+
+.icon--quote-left {
+    width: 32px;
+    height: 32px;
+    background-position: 53.225806451612904% 92.74193548387096%;
+  }
+
+.icon--quote-right {
+    width: 32px;
+    height: 32px;
+    background-position: 40.32258064516129% 92.74193548387096%;
+  }
+
+.icon--sass {
+    width: 50px;
+    height: 50px;
+    background-position: 0 100%;
+  }
+
+.icon--twitter {
+    width: 50px;
+    height: 50px;
+    background-position: 100% 65.21739130434783%;
+  }
+
+.icon--whatsapp {
+    width: 50px;
+    height: 50px;
+    background-position: 21.73913043478261% 100%;
+  }
+
+.icons{
+  width: 50%;
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+       -webkit-box-pack: justify;
+           -ms-flex-pack: justify;
+               justify-content: space-between;
+       -ms-flex-wrap: wrap;
+           flex-wrap: wrap;
+}
+
+.icons img{
+   width: 5em;
+ }
+
+#testimonial {
+    background: #f1f1f1;
+    padding: 50px 0 30px 0;
+    text-align: center;
+ }
+
+#testimonial p{
+	font-size:20px;
+	font-family:'Josefin Sans';
+	text-align:justify;
+	color:#000;
+}
+
+#testimonial p.costumer{
+	font-size:15px;
+	color:#666;
+}
+
+.section-heading{
+font-size:2rem;
+}
+
+.section-heading--centered{
+    text-align: center;
+  }
+
+.section-heading--narrow{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 600;
+  }
+
+.row{
+  padding-bottom: 100px;
+}
+
+.row__4{
+    float:left;
+    width: 20%;
+    margin-left: 5%;
+  }
+
+.row__6{
+    float:left;
+    width: 40%;
+    margin-left: 10%;
+  }
+
+.row__2{
+    float:left;
+    width: 10%;
+    margin-left: 6%;
+    padding-top: 10px;
+  }

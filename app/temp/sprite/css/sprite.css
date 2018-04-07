@@ -1,0 +1,133 @@
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
+Instead edit gulp/templates/sprite */
+
+    .icon {
+      background-image: url('/assets/images/sprites/sprite-bccfd0b3.svg');
+      display: block;
+    }
+
+  .icon--bootstrap {
+    width: 50px;
+    height: 50px;
+    background-position: 43.47826086956522% 78.26086956521739%;
+  }
+
+  .icon--css3 {
+    width: 50px;
+    height: 50px;
+    background-position: 21.73913043478261% 78.26086956521739%;
+  }
+
+  .icon--envelope {
+    width: 50px;
+    height: 50px;
+    background-position: 56.52173913043478% 21.73913043478261%;
+  }
+
+  .icon--facebook {
+    width: 50px;
+    height: 50px;
+    background-position: 0 56.52173913043478%;
+  }
+
+  .icon--git {
+    width: 50px;
+    height: 50px;
+    background-position: 21.73913043478261% 56.52173913043478%;
+  }
+
+  .icon--github {
+    width: 50px;
+    height: 50px;
+    background-position: 43.47826086956522% 56.52173913043478%;
+  }
+
+  .icon--gulp {
+    width: 50px;
+    height: 50px;
+    background-position: 78.26086956521739% 0;
+  }
+
+  .icon--html5 {
+    width: 50px;
+    height: 50px;
+    background-position: 78.26086956521739% 21.73913043478261%;
+  }
+
+  .icon--javascript {
+    width: 50px;
+    height: 50px;
+    background-position: 78.26086956521739% 43.47826086956522%;
+  }
+
+  .icon--jquery {
+    width: 50px;
+    height: 50px;
+    background-position: 0 78.26086956521739%;
+  }
+
+  .icon--linkedin {
+    width: 50px;
+    height: 50px;
+    background-position: 56.52173913043478% 0;
+  }
+
+  .icon--logo {
+    width: 130px;
+    height: 130px;
+    background-position: 0 0;
+  }
+
+  .icon--message {
+    width: 50px;
+    height: 50px;
+    background-position: 65.21739130434783% 78.26086956521739%;
+  }
+
+  .icon--nodejs {
+    width: 50px;
+    height: 50px;
+    background-position: 100% 0;
+  }
+
+  .icon--npm {
+    width: 50px;
+    height: 50px;
+    background-position: 100% 21.73913043478261%;
+  }
+
+  .icon--php {
+    width: 50px;
+    height: 50px;
+    background-position: 100% 43.47826086956522%;
+  }
+
+  .icon--quote-left {
+    width: 32px;
+    height: 32px;
+    background-position: 53.225806451612904% 92.74193548387096%;
+  }
+
+  .icon--quote-right {
+    width: 32px;
+    height: 32px;
+    background-position: 40.32258064516129% 92.74193548387096%;
+  }
+
+  .icon--sass {
+    width: 50px;
+    height: 50px;
+    background-position: 0 100%;
+  }
+
+  .icon--twitter {
+    width: 50px;
+    height: 50px;
+    background-position: 100% 65.21739130434783%;
+  }
+
+  .icon--whatsapp {
+    width: 50px;
+    height: 50px;
+    background-position: 21.73913043478261% 100%;
+  }
