@@ -1,0 +1,7 @@
+.site-footer{
+  background-color: $mainBlack;
+  color: #fff;
+  padding: .5rem 0;
+  margin-top: 2rem;
+  text-align: center;
+}

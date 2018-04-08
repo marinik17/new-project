@@ -3,6 +3,7 @@ hr{
   max-width: 50px;
   height: 3px;
   background-color:$mainOrange;
+  margin-bottom: 3vw;
 }
 hr.white{
   background-color: #fff;

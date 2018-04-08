@@ -1,19 +1,45 @@
 .row{
-  padding-bottom: 100px;
-  &__4{
-    float:left;
-    width: 20%;
-    margin-left: 5%;
+  @mixin clearfix;
+    &__6{
+      float:left;
+      width: 20vw;
+      padding-left: 8vw;
+      @mixin atSmall{
+        width: 10vw;
+        padding-left: 4.6vw;
+      }
   }
-  &__6{
-    float:left;
-    width: 40%;
-    margin-left: 10%;
+    &__3{
+      float:left;
+      width: 70vw;
+      margin-left: 10vw;
+      @mixin atMedium{
+        width:70vw;
+        margin-left: 2vw;
+      }
+      @mixin atSmall{
+        width: 26vw;
+        margin-left: 3vw;
+      }
+    }
+    &__4{
+      float:left;
+      width: 15vw;
+      margin-left: 5vw;
+      @mixin atSmall{
+        margin-left: 6.8vw;
+      }
+    }
+    &__2{
+      float:left;
+      width: 30vw;
+      margin-left: 5vw;
+
+      @mixin atSmall{
+        width: 17vw;
+        margin-left: 20vw;
+        display: flex;
+        align-items: center;
+      }
+    }
   }
-  &__2{
-    float:left;
-    width: 10%;
-    margin-left: 6%;
-    padding-top: 10px;
-  }
-}

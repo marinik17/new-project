@@ -460,6 +460,7 @@ hr{
   max-width: 50px;
   height: 3px;
   background-color:#ff6600;
+  margin-bottom: 3vw;
 }
 
 hr.white{
@@ -575,32 +576,21 @@ hr{
   margin-right: auto;
 }
 
-.site-header{
-position:absolute;
-width:100%;
-z-index:2;
-background-color: rgba(0,0,0, .3);
-}
+.site-header {
+  position:absolute;
+  width:100%;
+  z-index:2;
+  background-color: rgba(0,0,0, .3);
+  }
 
 .site-header__btn{
-  float: right;
-  margin:10px;
-}
+    float: right;
+    margin:10px;
+  }
 
 .site-header__logo{
-  position: absolute;
-  top:-12px;
-
-}
-
-.site-header__logo img{
-    width:150px;
-    height: 150px;
-    @mixins atMedium{
-      width:200px;
-    }
-
-  }
+    position: absolute;
+    top:-12px;  }
 
 .primary-nav__pull-right{
     float: right;
@@ -809,25 +799,85 @@ font-size:2rem;
     font-weight: 600;
   }
 
-.row{
-  padding-bottom: 100px;
-}
-
-.row__4{
-    float:left;
-    width: 20%;
-    margin-left: 5%;
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
   }
 
 .row__6{
-    float:left;
-    width: 40%;
-    margin-left: 10%;
+      float:left;
+      width: 20vw;
+      padding-left: 8vw;
+  }
+
+@media(min-width: 530px){
+
+.row__6{
+        width: 10vw;
+        padding-left: 4.6vw
+  }
+  }
+
+.row__3{
+      float:left;
+      width: 70vw;
+      margin-left: 10vw;
+    }
+
+@media(min-width: 800px){
+
+.row__3{
+        width:70vw;
+        margin-left: 2vw
+    }
+  }
+
+@media(min-width: 530px){
+
+.row__3{
+        width: 26vw;
+        margin-left: 3vw
+    }
+  }
+
+.row__4{
+      float:left;
+      width: 15vw;
+      margin-left: 5vw;
+    }
+
+@media(min-width: 530px){
+
+.row__4{
+        margin-left: 6.8vw
+    }
   }
 
 .row__2{
-    float:left;
-    width: 10%;
-    margin-left: 6%;
-    padding-top: 10px;
+      float:left;
+      width: 30vw;
+      margin-left: 5vw;
+    }
+
+@media(min-width: 530px){
+
+.row__2{
+        width: 17vw;
+        margin-left: 20vw;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center
+    }
   }
+
+.site-footer{
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: .5rem 0;
+  margin-top: 2rem;
+  text-align: center;
+}
