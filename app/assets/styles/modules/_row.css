@@ -30,16 +30,24 @@
         margin-left: 6.8vw;
       }
     }
-    &__2{
-      float:left;
-      width: 30vw;
-      margin-left: 5vw;
 
-      @mixin atSmall{
-        width: 17vw;
-        margin-left: 20vw;
-        display: flex;
-        align-items: center;
-      }
+  }
+
+  .contact-row{
+    max-width: 1300px;
+    margin: 40px auto 0 auto;
+    padding: 20px 50px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .row__2{
+    box-sizing: border-box;
+    width:45%;
+    text-align: center;
+    .icon{
+      display: block;
+      margin-left:auto;
+      margin-right: auto;
     }
   }
