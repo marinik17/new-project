@@ -496,13 +496,14 @@ hr.white{
   color:#ff6600;
   font-size: 2.5rem;
   text-shadow:1px 1px #1a1a1a;
+  padding-top: 30px;
 }
 
 @media(min-width: 530px){
 
 .large-hero__title{
     font-size: 4.5rem;
-    margin-bottom: 5px
+    padding-top: 0
 }
   }
 
@@ -548,7 +549,11 @@ hr{
   padding: 1.2rem 1.9rem;
   display: inline-block;
   border-radius: 100px;
-}
+  }
+
+.btn:hover{
+    background-color:#1a1a1a;
+  }
 
 .btn__black{
     background-color: #1a1a1a;
@@ -557,7 +562,13 @@ hr{
     padding: .75rem 1.2rem;
     display: inline-block;
     border-radius: 100px;
-  }
+
+    }
+
+.btn__black:hover{
+      background-color:#ff6600;
+
+    }
 
 .page-section{
   padding: 2.5rem 0;
@@ -580,7 +591,18 @@ hr{
   position:absolute;
   width:100%;
   z-index:2;
-  background-color: rgba(0,0,0, .3);
+  background-color: rgba(0,0,0, .8);
+  -webkit-transition: -webkit-transform 3s ease-out;
+  transition: -webkit-transform 3s ease-out;
+  transition: transform 3s ease-out;
+  transition: transform 3s ease-out, -webkit-transform 3s ease-out;
+  }
+
+@media(min-width: 800px){
+
+.site-header {
+    background-color: rgba(0,0,0, .3)
+  }
   }
 
 .site-header__btn{
@@ -590,7 +612,129 @@ hr{
 
 .site-header__logo{
     position: absolute;
-    top:-12px;  }
+    top:-8px;
+    left: 50%;
+    -webkit-transform: translateX(-50%) scale(.7);
+            transform: translateX(-50%) scale(.7);
+    -webkit-transform-origin: 50% 0;
+            transform-origin: 50% 0;
+    }
+
+@media(min-width: 800px){
+
+.site-header__logo{
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+        left:auto
+    }
+  }
+
+.site-header__logo__graphic{
+      text-indent: -9999px;
+    }
+
+@media(min-width: 800px){
+
+.site-header__logo__graphic{
+        -webkit-transform: scale(1);
+                transform: scale(1);
+        top:-12px
+    }
+  }
+
+.site-header__menu-content{
+    display: none;
+    padding-top: 60px;
+  }
+
+@media(min-width: 800px){
+
+.site-header__menu-content{
+      display: block;
+      padding-top: 0
+  }
+  }
+
+.site-header__menu-content--is-visible{
+      display:block;
+
+    }
+
+.site-header__menu-icon{
+    width:40px;
+    height: 40px;
+    position: absolute;
+    top:10px;
+    right: 10px;
+
+
+    }
+
+.site-header__menu-icon::before{
+      content:"";
+      position: absolute;
+      top:0;
+      left:0;
+      width:40px;
+      height:4px;
+      background-color: #ff6600;
+      -webkit-transform-origin: 0 0;
+              transform-origin: 0 0;
+      -webkit-transition: -webkit-transform .3s ease-out;
+      transition: -webkit-transform .3s ease-out;
+      transition: transform .3s ease-out;
+      transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+    }
+
+.site-header__menu-icon__middle{
+      position: absolute;
+      top:10px;
+      left:0;
+      width:40px;
+      height:4px;
+      background-color:#1a1a1a;
+      -webkit-transition: opacity .3s ease-out;
+      transition: opacity .3s ease-out;
+    }
+
+.site-header__menu-icon::after{
+      content:"";
+      position: absolute;
+      top:20px;
+      left:0;
+      width:40px;
+      height:4px;
+      background-color: #ff6600;
+      -webkit-transform-origin: 0 100%;
+              transform-origin: 0 100%;
+      -webkit-transition: -webkit-transform .3s ease-out;
+      transition: -webkit-transform .3s ease-out;
+      transition: transform .3s ease-out;
+      transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+    }
+
+@media(min-width: 800px){
+
+.site-header__menu-icon{
+      display: none
+
+
+    }
+  }
+
+.site-header__menu-icon--close-x::before{
+        -webkit-transform:rotate(45deg) scaleX(.78);
+                transform:rotate(45deg) scaleX(.78);
+      }
+
+.site-header__menu-icon--close-x .site-header__menu-icon__middle{
+      opacity: 0;
+    }
+
+.site-header__menu-icon--close-x::after{
+        -webkit-transform:rotate(-45deg) scaleX(.78) translateY(1px);
+                transform:rotate(-45deg) scaleX(.78) translateY(1px);
+      }
 
 .primary-nav__pull-right{
     float: right;
@@ -614,6 +758,10 @@ hr{
     display: block;
     margin: 22px 0;
   }
+
+.primary-nav a:hover{
+      color:#ff6600;
+    }
 
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
 Instead edit gulp/templates/sprite */

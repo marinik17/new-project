@@ -17,6 +17,9 @@
     text-decoration: none;
     display: block;
     margin: 22px 0;
+    &:hover{
+      color:$mainOrange;
+    }
   }
 
 }

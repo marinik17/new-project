@@ -2,12 +2,101 @@
   position:absolute;
   width:100%;
   z-index:2;
-  background-color: rgba(0,0,0, .3);
+  background-color: rgba(0,0,0, .8);
+  transition: transform 3s ease-out;
+  @mixin atMedium{
+    background-color: rgba(0,0,0, .3);
+  }
+
   &__btn{
     float: right;
     margin:10px;
   }
   &__logo{
     position: absolute;
-    top:-12px;  }
+    top:-8px;
+    left: 50%;
+    transform: translateX(-50%) scale(.7);
+    transform-origin: 50% 0;
+      @mixin atMedium{
+        transform: translateX(0);
+        left:auto;
+      }
+    &__graphic{
+      text-indent: -9999px;
+      @mixin atMedium{
+        transform: scale(1);
+        top:-12px;
+      }
+    }
+    }
+  &__menu-content{
+    display: none;
+    padding-top: 60px;
+
+    @mixin atMedium{
+      display: block;
+      padding-top: 0;
+    }
+    &--is-visible{
+      display:block;
+
+    }
+  }
+  &__menu-icon{
+    width:40px;
+    height: 40px;
+    position: absolute;
+    top:10px;
+    right: 10px;
+    &::before{
+      content:"";
+      position: absolute;
+      top:0;
+      left:0;
+      width:40px;
+      height:4px;
+      background-color: $mainOrange;
+      transform-origin: 0 0;
+      transition: transform .3s ease-out;
+    }
+    &__middle{
+      position: absolute;
+      top:10px;
+      left:0;
+      width:40px;
+      height:4px;
+      background-color:$mainBlack;
+      transition: opacity .3s ease-out;
+    }
+    &::after{
+      content:"";
+      position: absolute;
+      top:20px;
+      left:0;
+      width:40px;
+      height:4px;
+      background-color: $mainOrange;
+      transform-origin: 0 100%;
+      transition: transform .3s ease-out;
+    }
+    @mixin atMedium{
+      display: none;
+    }
+
+
+    }
+    &__menu-icon--close-x{
+      &::before{
+        transform:rotate(45deg) scaleX(.78);
+      }
+
+    .site-header__menu-icon__middle{
+      opacity: 0;
+    }
+
+      &::after{
+        transform:rotate(-45deg) scaleX(.78) translateY(1px);
+      }
+  }
   }
