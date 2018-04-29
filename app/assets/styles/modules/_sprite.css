@@ -2,20 +2,20 @@
 Instead edit gulp/templates/sprite */
 
     .icon {
-      background-image: url('/assets/images/sprites/sprite-bccfd0b3.svg');
+      background-image: url('/assets/images/sprites/sprite-3240e9ce.svg');
       display: block;
     }
 
   .icon--bootstrap {
     width: 50px;
     height: 50px;
-    background-position: 43.47826086956522% 78.26086956521739%;
+    background-position: 56.52173913043478% 0;
   }
 
   .icon--css3 {
     width: 50px;
     height: 50px;
-    background-position: 21.73913043478261% 78.26086956521739%;
+    background-position: 43.47826086956522% 78.26086956521739%;
   }
 
   .icon--envelope {
@@ -69,7 +69,7 @@ Instead edit gulp/templates/sprite */
   .icon--linkedin {
     width: 50px;
     height: 50px;
-    background-position: 56.52173913043478% 0;
+    background-position: 21.73913043478261% 78.26086956521739%;
   }
 
   .icon--logo {
@@ -105,13 +105,13 @@ Instead edit gulp/templates/sprite */
   .icon--quote-left {
     width: 32px;
     height: 32px;
-    background-position: 53.225806451612904% 92.74193548387096%;
+    background-position: 69.35483870967742% 92.74193548387096%;
   }
 
   .icon--quote-right {
     width: 32px;
     height: 32px;
-    background-position: 40.32258064516129% 92.74193548387096%;
+    background-position: 56.45161290322581% 92.74193548387096%;
   }
 
   .icon--sass {
@@ -124,6 +124,12 @@ Instead edit gulp/templates/sprite */
     width: 50px;
     height: 50px;
     background-position: 100% 65.21739130434783%;
+  }
+
+  .icon--upTop {
+    width: 40px;
+    height: 40px;
+    background-position: 41.666666666666664% 95.83333333333333%;
   }
 
   .icon--whatsapp {
