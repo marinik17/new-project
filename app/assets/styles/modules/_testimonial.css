@@ -10,7 +10,23 @@
 	text-align:justify;
 	color:#000;
 }
+
+#testimonial p:first-child::first-letter{
+ font-size:30px;
+ font-family:'BaroqueScript';
+ text-align:justify;
+ font-weight: bold;
+ color:#000;
+ margin-left: 10px;
+}
 #testimonial p.costumer{
 	font-size:15px;
 	color:#666;
+}
+.icon--quote-left{
+  float: left;
+}
+
+.icon--quote-right{
+  float: right;
 }

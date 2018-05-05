@@ -455,6 +455,13 @@ body{
   color:#333;
 }
 
+@font-face {
+    font-family: 'BaroqueScript';
+    src:  url('/assets/fonts/BaroqueScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 hr{
   z-index: 1;
   max-width: 50px;
@@ -932,9 +939,26 @@ Instead edit gulp/templates/sprite */
 	color:#000;
 }
 
+#testimonial p:first-child::first-letter{
+ font-size:30px;
+ font-family:'BaroqueScript';
+ text-align:justify;
+ font-weight: bold;
+ color:#000;
+ margin-left: 10px;
+}
+
 #testimonial p.costumer{
 	font-size:15px;
 	color:#666;
+}
+
+.icon--quote-left{
+  float: left;
+}
+
+.icon--quote-right{
+  float: right;
 }
 
 .section-heading{
