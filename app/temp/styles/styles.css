@@ -577,6 +577,18 @@ hr{
 
     }
 
+btn__triangle{
+    height: 0;
+    width: 0;
+    background-color: white;
+    border-top: 60px solid red;
+    border-right: 60px solid green;
+    border-bottom: 60px solid yellow;
+    border-left: 60px solid black;
+
+
+  }
+
 .page-section{
   padding: 2.5rem 0;
 }
@@ -1181,4 +1193,25 @@ font-size:2rem;
 #upTop:hover {
   background-color: #555;
   border-radius: 100px;
+}
+
+.form textarea{
+height: 150px;
+}
+
+.form-control {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 2px solid #ff6600;
+  border-radius: 10px;
+  margin: 5px;
 }

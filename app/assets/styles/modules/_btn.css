@@ -22,3 +22,14 @@
 
     }
   }
+  btn__triangle{
+    height: 0;
+    width: 0;
+    background-color: white;
+    border-top: 60px solid red;
+    border-right: 60px solid green;
+    border-bottom: 60px solid yellow;
+    border-left: 60px solid black;
+
+
+  }
